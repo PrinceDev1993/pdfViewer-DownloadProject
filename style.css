@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+@media (max-width:594px) {
+    .Download {
+        margin: auto !important;
+        margin-top: 50px !important;
+    }
+}
+
+@media (max-width:466px) {
+    .next {
+        margin-left: 5px !important;
+    }
+
+   
+}
+
+
+@media (max-width:447px) {
+    .page_info {
+        margin: auto !important;
+        margin-top: 50px !important;
+    }
+}
+

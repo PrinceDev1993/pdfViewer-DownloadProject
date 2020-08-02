@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>PDF</title>
+</head>
+<body>
+    <div class="nav p-4">
+        <button id="prev" class="prev btn btn-info"><i class="mr-3 fa fa-arrow-circle-left"></i>Prev Page</button>
+        <button id="next" class="next ml-4 btn btn-info">Next Page<i class="ml-3 fa fa-arrow-circle-right"></i></button>
+
+        <span class="ml-4 mr-4 page_info">
+            page <span class="page_num"></span> of <span class="page_count"></span>
+        </span>
+
+        <a class="text-success ml-auto" href="./pdf/Marriage.pdf" download><button class="btn Download btn-outline-success ">Download PDF</button></a>
+    </div>
+
+    <div class="text-center">
+        <canvas class="text-center img-fluid" id="pdf-display"></canvas>
+    </div>
+   
+    
+
+
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
